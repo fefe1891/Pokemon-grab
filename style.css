@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background-color: #FFCB05;
+    font-family: Arial, sans-serif;
+    color: #3D7DCA; /* Blue for Pokemon */
+  }
+  
+  button {
+    padding: 15px;
+    background-color: #3D7DCA; /* Blue for pokemon */
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #013678; /* Dark blue for pokemon */
+  }
+  
+  #pokemon-area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 250px;
+    background-color: white;
+    border: 1px solid #3D7DCA; /* Blue for pokemon */
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h1 {
+    font-size: 20px;
+    color: #013678; /* Dark blue for pokemon */
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #013678; /* Dark blue for pokemon */
+  }
